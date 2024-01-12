@@ -1,6 +1,6 @@
 Name:    qt5-doc
 Summary: Qt5 - Complete documentation
-Version: 5.15.9
+Version: 5.15.3
 Release: 1%{?dist}
 BuildArch: noarch
 
@@ -291,10 +291,6 @@ rm -rfv qtdoc* qtcmake* qtdistancefieldgenerator* qtlabs*
 
 
 %changelog
-* Tue Apr 18 2023 Jan Grulich <jgrulich@redhat.com> - 5.15.9-1
-- 5.15.9
-  Resolves: bz#2175726
-
 * Fri Apr 01 2022 Jan Grulich <jgrulich@redhat.com> - 5.15.3-1
 - 5.15.3
   Resolves: bz#2061353
